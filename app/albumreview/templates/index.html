@@ -1,0 +1,12 @@
+{% load url from future %}
+
+<h2>Musicians</h2>
+
+<ul>
+    {% for m in musicians %}
+        <li>
+            <!-- this URL is built manually -->
+            <a href="/musicians/{{m.id}}/">{{m.first_name}} {{m.last_name}}</a>
+        </li>
+    {% endfor %}
+</ul>
