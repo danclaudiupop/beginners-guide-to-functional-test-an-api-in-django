@@ -1,2 +1,1 @@
-beginners-guide-to-test-an-api-in-django
-========================================
+companion for http://testpy.org/guide-to-functionally-test-an-api-in-django/
